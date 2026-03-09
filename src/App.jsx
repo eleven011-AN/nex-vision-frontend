@@ -6,7 +6,7 @@ import Dashboard from './components/Dashboard'
 import UploadModal from './components/UploadModal'
 import './index.css'
 
-const API = 'http://localhost:8000'
+const API = 'https://nex-vision-backend.onrender.com/'
 
 export default function App() {
   const [uploadModalOpen, setUploadModalOpen] = useState(false)

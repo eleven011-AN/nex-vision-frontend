@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 import axios from 'axios'
 import { FolderOpen, X, CloudUpload, FileSpreadsheet, Loader2, Rocket } from 'lucide-react'
 
-const API = 'http://localhost:8000'
+const API = 'https://nex-vision-backend.onrender.com/'
 
 export default function UploadModal({ open, onClose, onUploaded }) {
     const [dragover, setDragover] = useState(false)
