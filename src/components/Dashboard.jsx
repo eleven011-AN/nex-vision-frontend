@@ -60,7 +60,7 @@ export default function Dashboard({ kpis, charts, loading, subtitle, queryPrompt
                     <div className="dashboard-title">
                         {queryPrompt
                             ? `Results: "${queryPrompt.slice(0, 50)}${queryPrompt.length > 50 ? '…' : ''}"`
-                            : 'DataSense AI Overview'}
+                            : 'NexVision Overview'}
                     </div>
                     <div className="dashboard-subtitle">
                         {subtitle || (hasData ? 'Dataset ready for analysis' : 'No dataset loaded')}
