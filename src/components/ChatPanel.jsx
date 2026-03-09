@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import axios from 'axios'
 import { Bot, User, UploadCloud, FileSpreadsheet, Send, TrendingUp, Trophy, Globe, PieChart, BarChart2, Sparkles, X, Loader2, Mic, MicOff, Volume2, VolumeX } from 'lucide-react'
 
-const API = 'https://nex-vision-backend.onrender.com/'
+const API = 'https://nex-vision-backend.onrender.com'
 
 const SUGGESTIONS = [
     { icon: <TrendingUp size={14} />, text: 'Show the trend over time' },
